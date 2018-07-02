@@ -1,4 +1,4 @@
-#include<cs50.h> //Importing cs50 library
+#include "cs50.h" //Importing cs50 library
 #include<string.h> //for getting string library for strlen
 #include<ctype.h> //for getting islower isupper fuctions
 #include<stdio.h>
