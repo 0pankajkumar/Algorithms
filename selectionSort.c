@@ -1,7 +1,4 @@
-#include "cs50.h" //Importing cs50 library
-#include<string.h> //for getting string library for strlen
-#include<ctype.h> //for getting islower isupper fuctions
-#include<stdio.h>
+#include<stdio.h> //For printf
 
 int main(void)
 {
@@ -28,10 +25,8 @@ int main(void)
         inp[i] = small;
         inp[pos] = temp;
         for (int p = 0; p < 6; p++)
-            {printf("%d", inp[p]);
+            {printf("%d ", inp[p]);
             }
     printf("\n");
     }
-    //for (int i = 0; i < 6; i++)
-    //printf("%d", inp[i]);
 }
